@@ -1,29 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stencil Layers App - Coming Soon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background: #f0f0f0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  text-align: center;
-}
+  <nav>
+    <div class="container">
+      <h1>Stencil Layers</h1>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
-.container {
-  background: white;
-  padding: 40px;
-  border-radius: 8px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
+  <header id="home">
+    <div class="container">
+      <h2>Welcome to Stencil Layers!</h2>
+      <p>Turning photos into layered masterpieces — Launching soon!</p>
+    </div>
+  </header>
 
-h1 {
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-}
+  <section id="about">
+    <div class="container">
+      <h2>About</h2>
+      <p>Our app will let you upload any photo and automatically create layered SVG stencils. Perfect for art, printing, and beyond!</p>
+    </div>
+  </section>
 
-p {
-  font-size: 1.2em;
-  color: #555;
-}
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Stay tuned! Email capture coming soon.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Stencil Layers. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
